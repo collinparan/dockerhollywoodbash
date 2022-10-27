@@ -12,4 +12,4 @@ RUN \
   dpkg-reconfigure tzdata && \
   updatedb
 
-ENTRYPOINT [ "hollywood" ]
+#ENTRYPOINT [ "hollywood" ]
